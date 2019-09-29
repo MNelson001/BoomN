@@ -1,20 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-// Angular Material Modules
+// Angular Material components
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+
+import { FlexLayoutModule } from '@angular/flex-layout'
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FlexLayoutModule
   ],
   exports: [
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FlexLayoutModule
   ]
 })
 export class HisDarkMaterialsModule { }

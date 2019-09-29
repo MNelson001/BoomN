@@ -1,8 +1,8 @@
 <div class="landing">
 
-  <section class="splash">
+  <section class="splash" fxLayout="row" fxLayout.xs="column">
     
-    <div class="splash-left">
+    <div [ngStyle.xs]="{'width':'100%'}" class="splash-left">
   
       <ul class="splash-left-list">
         <div class="splash-left-list-top-right"></div>
@@ -21,7 +21,7 @@
         </li>
         <li class="splash-left-list-item">
             <i class="fas fa-chart-bar"></i>
-            <p>Plater Stats</p>
+            <p>Player Stats</p>
         </li>
         <div class="splash-left-list-bottom-right"></div>
         <div class="splash-left-list-bottom-left"></div>
@@ -29,7 +29,7 @@
   
     </div>
   
-    <div class="splash-right">
+    <div [ngStyle.xs]="{'width':'100%'}" class="splash-right">
   
       <div class="splash-right-quote">
         <p>"Alright, times up. Let's do this."</p>

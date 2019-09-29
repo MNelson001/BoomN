@@ -26,6 +26,7 @@
                 width: 50%
                 border-radius: 5px 
                 align-items: center
+                cursor: default
 
                 &-top-right
                     height: 50px
@@ -69,12 +70,20 @@
 
                 &-item
                     display: flex
-                    width: 50%
+                    width: 65%
                     align-items: center
                     justify-content: space-between
 
                     i
-                        font-size: 26px
+                        font-size: 18px
+                        background-color: #3d3d3d
+                        height: 35px
+                        width: 35px
+                        border-radius: 25px
+                        color: #ffffff
+                        display: flex
+                        justify-content: center
+                        align-items: center
 
                     p
                         font-family: 'Roboto', sans-serif
@@ -84,8 +93,8 @@
                         color: #777777
 
 
-
         &-right
+            border-top: 2px solid #ffba00
             width: 50%
             height: 100%
             background-color: #3d3d3d
@@ -99,13 +108,27 @@
                 color: #ffffff
                 font-size: 28px
                 text-align: right
+                cursor: default
                 
                 p
                     margin: 5px 0px
 
                 .the_legend
-                    font-family: 'Amatic SC', cursive;
+                    font-family: 'Amatic SC', cursive
                     margin-right: 30px
+
+        @media screen and (max-width: 399px) 
+            &-left, &-right
+                height: 50%
+
+                &-list
+                    height: 50%
+
+                    &-item
+                        width: 90%
+
+                        p
+                            font-size: 16px
 
     .about
         height: 100%
