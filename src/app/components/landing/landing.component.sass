@@ -1,0 +1,115 @@
+.landing
+    height: 100%
+    width: 100%
+
+    .splash
+        height: 100%
+        width: 100%
+        display: flex
+
+        &-left
+            width: 50%
+            height: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+
+            &-list
+                list-style: none
+                padding: 0px
+                text-align: center
+                display: flex
+                flex-direction: column
+                height: 70%
+                justify-content: space-evenly
+                position: relative
+                width: 50%
+                border-radius: 5px 
+                align-items: center
+
+                &-top-right
+                    height: 50px
+                    width: 75%
+                    position: absolute
+                    top: -10px
+                    right: -10px
+                    border-right: 1px solid #ffba00
+                    border-top: 1px solid #ffba00
+                    border-top-right-radius: 5px
+                
+                &-top-left
+                    height: 80%
+                    width: 50px
+                    position: absolute
+                    top: -10px
+                    left: -10px
+                    border-left: 1px solid #ffba00
+                    border-top: 1px solid #ffba00
+                    border-top-left-radius: 5px
+
+                &-bottom-right
+                    height: 80%
+                    width: 50px
+                    position: absolute
+                    bottom: -10px
+                    right: -10px
+                    border-right: 1px solid #ffba00
+                    border-bottom: 1px solid #ffba00
+                    border-bottom-right-radius: 5px
+                
+                &-bottom-left
+                    height: 50px
+                    width: 75%
+                    position: absolute
+                    bottom: -10px
+                    left: -10px
+                    border-left: 1px solid #ffba00
+                    border-bottom: 1px solid #ffba00
+                    border-bottom-left-radius: 5px
+
+                &-item
+                    display: flex
+                    width: 50%
+                    align-items: center
+                    justify-content: space-between
+
+                    i
+                        font-size: 26px
+
+                    p
+                        font-family: 'Roboto', sans-serif
+                        font-size: 22px
+                        text-transform: uppercase
+                        font-weight: 300
+                        color: #777777
+
+
+
+        &-right
+            width: 50%
+            height: 100%
+            background-color: #3d3d3d
+            display: flex
+            justify-content: center
+            align-items: center
+
+            &-quote
+                font-family: 'Roboto', sans-serif
+                font-weight: 100
+                color: #ffffff
+                font-size: 28px
+                text-align: right
+                
+                p
+                    margin: 5px 0px
+
+                .the_legend
+                    font-family: 'Amatic SC', cursive;
+                    margin-right: 30px
+
+    .about
+        height: 100%
+        width: 100%
+        background: #00b4bf
+        border-top: 2px solid #ffffff
+        width: 50%
