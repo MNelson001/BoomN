@@ -13,6 +13,17 @@
             display: flex
             justify-content: center
             align-items: center
+            background-image: url('https://i.pinimg.com/originals/41/ca/46/41ca4669e3b879165612ef5bead3c31b.gif')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+            position: relative
+
+            &-opaque
+                position: absolute
+                height: 100%
+                width: 100%
+                background-color: rgba(0,0,0,0.75)
 
             &-list
                 list-style: none
@@ -27,6 +38,8 @@
                 border-radius: 5px 
                 align-items: center
                 cursor: default
+                background: rgba(255,255,255,0.75)
+
 
                 &-top-right
                     height: 50px
