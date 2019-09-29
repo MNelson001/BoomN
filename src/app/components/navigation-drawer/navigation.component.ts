@@ -3,11 +3,11 @@ import { Component, HostListener, OnInit } from '@angular/core';
 declare const window: any;
 
 @Component({
-  selector: 'app-navigation-drawer',
-  templateUrl: './navigation-drawer.component.html',
-  styleUrls: ['./navigation-drawer.component.sass']
+  selector: 'app-navigation',
+  templateUrl: './navigation.component.html',
+  styleUrls: ['./navigation.component.sass']
 })
-export class NavigationDrawerComponent implements OnInit {
+export class NavigationComponent implements OnInit {
 
   constructor() { }
 

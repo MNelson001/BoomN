@@ -4,16 +4,16 @@ import { CommonModule } from '@angular/common';
 // Angular Materials
 import { HisDarkMaterialsModule } from '../his-dark-materials/his-dark-materials.module';
 
-import { NavigationDrawerComponent } from '../../components/navigation-drawer/navigation-drawer.component'
+import { NavigationComponent } from '../../components/navigation-drawer/navigation.component'
 
 @NgModule({
-  declarations: [NavigationDrawerComponent],
+  declarations: [NavigationComponent],
   imports: [
     CommonModule,
     HisDarkMaterialsModule
   ],
   exports: [
-    NavigationDrawerComponent
+    NavigationComponent
   ]
 })
 export class NavigationModule { }

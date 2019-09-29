@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavigationDrawerComponent } from './navigation-drawer.component';
+import { NavigationComponent } from './navigation.component';
 
 describe('NavigationDrawerComponent', () => {
-  let component: NavigationDrawerComponent;
-  let fixture: ComponentFixture<NavigationDrawerComponent>;
+  let component: NavigationComponent;
+  let fixture: ComponentFixture<NavigationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavigationDrawerComponent ]
+      declarations: [ NavigationComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavigationDrawerComponent);
+    fixture = TestBed.createComponent(NavigationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

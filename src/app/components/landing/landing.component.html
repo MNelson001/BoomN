@@ -1,3 +1,19 @@
+<!-- 
+  The landing page will consist of 3 sections
+  Splash section:
+    Brief desc. of what we offer
+    Some content that appeals to our target audience
+    login / register call-to-action
+  About section:
+    Further desc. of what we offer
+    What we are building
+    Mission Statement to get people using it.
+  Contact section:
+    A place where users can contact us
+    for features, issues and potentially -
+    much later on - emplyoment.
+ -->
+
 <div class="landing">
 
   <section class="splash" fxLayout="row" fxLayout.xs="column">
@@ -31,12 +47,29 @@
   
     </div>
   
+    <!-- 
+      TODO: Some better styling can be made here 
+      Just a placeholder image until either of us 
+      comes up with an idea on what to put here.
+      Maybe a clipped custom logo? Or top rated 
+      youtube channels? I dont know. Definitely
+      need to add a call-to-action button to register or 
+      sign in.
+    -->
+    
     <div [ngStyle.xs]="{'width':'100%'}" class="splash-right">
-  
-      <div class="splash-right-quote">
-        <p>"Alright, times up. Let's do this."</p>
-        <p class="the_legend">- L. Jenkins</p>
+
+      <div class="splash-right-character">
+
       </div>
+
+      <mat-card class="splash-right-card">
+        <div class="splash-right-card-quote">
+          <p>"Alright, times up. Let's do this."</p>
+          <p class="the_legend">- L. Jenkins</p>
+        </div>
+      </mat-card>
+  
   
     </div>
 
