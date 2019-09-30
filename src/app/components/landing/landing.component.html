@@ -58,18 +58,36 @@
     -->
     
     <div [ngStyle.xs]="{'width':'100%'}" class="splash-right">
-
-      <div class="splash-right-character">
-
-      </div>
-
-      <mat-card class="splash-right-card">
-        <div class="splash-right-card-quote">
-          <p>"Alright, times up. Let's do this."</p>
-          <p class="the_legend">- L. Jenkins</p>
-        </div>
-      </mat-card>
   
+      <mat-tab-group animationDuration="0ms" class="accent splash-right-tabs">
+        <mat-tab label="News Feed" class="accent splash-right-tabs-tab">
+          <mat-card  class="splash-right-tabs-tab-content">
+            
+            <div *ngFor="let f of fill_data" class="splash-right-tabs-tab-content-nf">
+              <div class="splash-right-tabs-tab-content-nf-story">
+                <div class="splash-right-tabs-tab-content-nf-story-img">
+
+                </div>
+                <div class="splash-right-tabs-tab-content-nf-story-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <button  mat-raised-button class="splash-right-tabs-tab-content-nf-story-btn">See More</button>
+              </div>
+            </div>
+           
+          </mat-card>
+        </mat-tab>
+        <mat-tab label="Streams" class="splash-right-tabs-tab">
+          <mat-card class="splash-right-tabs-tab-content">
+
+          </mat-card>
+        </mat-tab>
+        <mat-tab label="Charts" class="splash-right-tabs-tab">
+          <mat-card class="splash-right-tabs-tab-content">
+
+          </mat-card>
+        </mat-tab>
+      </mat-tab-group>
   
     </div>
 

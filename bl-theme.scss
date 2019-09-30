@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$bl-theme-primary: mat-palette($mat-blue);
+$bl-theme-accent: mat-palette($mat-cyan);
+
+$bl-theme-warn: mat-palette($mat-red);
+
+$bl-app-theme: mat-light-theme($bl-theme-primary, $bl-theme-accent, $bl-theme-warn);
+
+@include angular-material-theme($bl-app-theme);

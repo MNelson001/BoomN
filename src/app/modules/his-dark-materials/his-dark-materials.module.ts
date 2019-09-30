@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { FlexLayoutModule } from '@angular/flex-layout'
 
@@ -13,6 +14,7 @@ import { FlexLayoutModule } from '@angular/flex-layout'
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
+    MatTabsModule,
     FlexLayoutModule
   ]
 })
